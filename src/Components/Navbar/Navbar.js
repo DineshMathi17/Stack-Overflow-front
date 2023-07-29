@@ -1,7 +1,7 @@
 import { useEffect } from "react"
 import { Link, useNavigate } from "react-router-dom"
 import { useSelector,useDispatch } from "react-redux"
-import Avatar from '../../Components/Avatar/Avatar'
+import Avatar from '../Avatar/Avatar'
 import { setCurrentUser } from "../../actions/currentUser"
 import decode from "jwt-decode"
 
