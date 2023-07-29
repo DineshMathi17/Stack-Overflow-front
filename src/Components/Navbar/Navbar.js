@@ -53,7 +53,7 @@ export default function Navbar(){
           <Link to={`/Users/${User?.result._id}`} style={{color:"white",textDecoration:"none"}}>
           {User.result.name.charAt(0).toUpperCase()}</Link>
           </Avatar>
-          <Link to='/Auth' className="nav-item nav-links">Log in</Link>
+
         <button className="nav-item nav-links" onClick={handlelogout}>Log out</button>
         </>}
 
